@@ -7,7 +7,9 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
 
 /**
  *
- * @author Ronak
+  * @author Leroy
+ * Student Number: 991612307
+ * Name of the student: Leroy Osei
  */
 public class Card {
 
