@@ -4,10 +4,9 @@ import java.util.Random;
  
 
 /**
- *
  * @author Leroy
  * Student Number: 991612307
- * Name of the student: Leroy Osei
+ * Student: Leroy Osei
  */
 public class CardTrick {
     public static void main(String[] args)
@@ -18,8 +17,9 @@ public class CardTrick {
           for (int i=0; i<TheHand.length; i++)
         {
             Card a = new Card();
-            
+            //This will make random numbers to generate 
             a.setValue((int)((Math.random()*13)+1));
+           
             a.setSuit(Card.SUITS[(int)((Math.random()*4)+0)]);
             
            //This prints out the value of the setted value and the setted get
@@ -27,6 +27,15 @@ public class CardTrick {
       
             //The array will now equal to Card a 
             TheHand[i] = a;
+           
+           /** Now when this program runs it would spew an example like this
+           12 of Spades
+           1 of Diamonds
+           3 of Hearts
+           10 of Diamonds
+           3 of Hearts
+           8 of Spades
+           6 of Clubs
 
         }
        
